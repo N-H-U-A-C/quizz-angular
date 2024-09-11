@@ -8,6 +8,6 @@ export const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'home', redirectTo: ''},
   {path: 'quizz', component: QuizzComponent},
-  {path: 'questions', component: QuestionComponent},
-  {path: 'reponses', component: ResultComponent},
+  //{path: 'questions', component: QuestionComponent},
+  //{path: 'reponses', component: ResultComponent},
 ];
