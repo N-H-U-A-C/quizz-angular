@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {CategoryService} from "../../utils/service/category.service";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-home',
@@ -8,18 +8,14 @@ import {CategoryService} from "../../utils/service/category.service";
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
-export class HomeComponent implements OnInit{
+export class HomeComponent implements OnInit {
 
-  categories : string[] = [];
-  constructor(private categoryservice: CategoryService) {
+
+  constructor(private router: Router) {
   }
 
   playQuizz() {
-
-  }
-
-  selectcategory() {
-
+    this.router.navigate(['/quizz']);
   }
 
   ngOnInit(): void {
