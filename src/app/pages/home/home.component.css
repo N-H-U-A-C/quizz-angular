@@ -1,0 +1,41 @@
+h1{
+  color: #009688;
+  font-size: 35px;
+  margin-left: 100px;
+  margin-top: 100px;
+
+}
+.selectCategory{
+  max-width: 1800px;
+  width: 100%;
+  position: relative;
+  left: 400px;
+  top: 150px;
+
+}
+select{
+  width: 200px;
+  height: 30px;
+  border: #FF9800 1px solid;
+  border-radius: 10px;
+}
+label{
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+
+}
+button{
+  width: 200px;
+  height: 30px;
+  background: orange;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  /* border-radius: 5px; */
+  border: 1px solid #FFC107;
+  box-shadow: #fdbc5b 1px 2px 4px;
+  position: relative;
+  top: 200px;
+  left: 900px;
+}
