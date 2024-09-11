@@ -5,7 +5,7 @@ nav a{
   border-top: 2px solid white;
 }
 nav a:hover{
-  color: #020257;
+  color: darkorange;
 }
 li{
   list-style: none;

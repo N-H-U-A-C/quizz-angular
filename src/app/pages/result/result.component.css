@@ -1,0 +1,16 @@
+.result-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+
+}
+h2{
+  font-size: 25px;
+  color: #607D8B;
+}
+
+.resultBlock{
+  margin-top:50px;
+}

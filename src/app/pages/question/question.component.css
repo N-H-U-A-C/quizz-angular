@@ -1,0 +1,26 @@
+.question-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+
+}
+h2{
+  font-size: 25px;
+  color: #607D8B;
+}
+button{
+  position: relative;
+  top: 40px;
+  width: 100px;
+  height: 30px;
+  background: orange;
+  border: 1px solid #FFC107;
+  color: white;
+  font-size: 15px;
+  left: 200px;
+}
+.questionBlock{
+  margin-top:50px;
+}
