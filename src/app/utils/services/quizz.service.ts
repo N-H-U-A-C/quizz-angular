@@ -1,7 +1,8 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
-import {catchError, Observable, of} from "rxjs";
+import {catchError, Observable, of, tap} from "rxjs";
 import {Quizz} from "../../model/Quizz";
+import {log} from "@angular-devkit/build-angular/src/builders/ssr-dev-server";
 
 @Injectable({
   providedIn: 'root'
