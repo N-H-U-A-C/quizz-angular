@@ -1,0 +1,25 @@
+nav a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  border-top: 2px solid white;
+}
+nav a:hover{
+  color: #020257;
+}
+li{
+  list-style: none;
+  padding:0px 10px;
+
+}
+ul{
+  display:flex;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top:60px;
+  left:900px;
+  justify-content: flex-end;
+  width: 100%;
+
+}

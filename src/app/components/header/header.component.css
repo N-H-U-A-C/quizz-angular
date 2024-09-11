@@ -1,0 +1,8 @@
+.header{
+  display: flex;
+  max-width: 1800px;
+  width: 100%;
+  position: relative;
+  background: #00b8cf;
+}
+
